@@ -1,0 +1,33 @@
+# Terraform — valores sensibles NUNCA a Git
+*.tfvars
+*.tfvars.json
+
+# Terraform state — siempre en backend remoto
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
